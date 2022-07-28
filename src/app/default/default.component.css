@@ -1,0 +1,20 @@
+.main-header {
+    display: flex;
+    height: 30px;
+    padding : 2px 2px;
+    background-color: var(--intel-blue);
+  }
+  
+  .main-header h2 {
+    align-items: baseline;
+    color: #ffffff;
+    font-family: Intel Clear;
+    font-size: 16.75px;
+    font-weight: bold;
+  
+  }
+  
+  .main-header img {
+    padding : 3px 3px;
+    max-height: 90%;
+  }

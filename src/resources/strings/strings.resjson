@@ -1,0 +1,5 @@
+{
+    "//": "manifest section",
+    "MicrosoftHciSnapInDemo_Manifest_displayName": "Contso HCI Snap-in demo",
+    "MicrosoftHciSnapInDemo_Manifest_description": "A demo snap-in replicating the experience of OEM manufacturer extension integration."
+}

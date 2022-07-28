@@ -1,0 +1,55 @@
+<div *ngIf="adapterSelected">
+    <div class="sme-layout-relative">
+        <div class="tabs-container" style="display:flex">
+            <div class="tab" style="padding: 8px 50px;" [ngStyle]="styleTab(this.Tab.DIAGNOSTICS)"
+                (click)="activateTab(this.Tab.DIAGNOSTICS)">General</div>
+            <div class="tab" style="padding: 8px 50px;" (click)="activateTab(this.Tab.TEAMING)">Home
+            </div>
+            <div class="tab" style="padding: 8px 50px;" (click)="activateTab(this.Tab.VLANS)">Connection
+            </div>
+        </div>
+    </div>
+
+    <div class="general-tab" style="padding:30px" *ngIf="activeTab ===  this.Tab.DIAGNOSTICS">
+        <div style="display:flex;padding-bottom:20px">
+            <div style="flex:1;display:flex;flex-direction:column">
+                <strong>Bus Type</strong>
+                <small>{{this.selectedAdapterDetails.busType}}</small>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column">
+                <strong>Driver Name</strong>
+                <small>{{this.selectedAdapterDetails.driverName}}</small>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column">
+                <strong>Driver Version</strong>
+                <small>{{this.selectedAdapterDetails.driverVersion}}</small></div>
+            <div style="flex:1;display:flex;flex-direction:column">
+                <strong>ETrackID</strong>
+                <small>{{this.selectedAdapterDetails.eTrackId}}</small></div>
+            <div style="flex:2;display:flex;flex-direction:column">
+                <strong>Location</strong>
+                <small>{{this.selectedAdapterDetails.location}}</small>
+            </div>
+        </div>
+        <div style="display:flex;padding-bottom:20px">
+            <div style="flex:1;display:flex;flex-direction:column">
+                <strong>Media Type</strong>
+                <small>{{this.selectedAdapterDetails.mediaType}}</small>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column">
+                <strong>Negotiated Link Speed</strong>
+                <small>{{this.selectedAdapterDetails.negotiatedLinkSpeed}}</small>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column">
+                <strong>Negotiated Link Width</strong>
+                <small>{{this.selectedAdapterDetails.negotiatedLinkWidth}}</small></div>
+            <div style="flex:1;display:flex;flex-direction:column">
+                <strong>Part Number</strong>
+                <small>{{this.selectedAdapterDetails.partNumber}}</small></div>
+            <div style="flex:2;display:flex;flex-direction:column">
+                <strong>Permanent Ethernet Address</strong>
+                <small>{{this.selectedAdapterDetails.permanentEthernetAddress}}</small>
+            </div>
+        </div>
+    </div>
+</div>

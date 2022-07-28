@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+  }
+  
+  .my-container {
+    height: 190px;
+    overflow: auto;
+  }
+  .sub-heading-option-div{
+    display: inline-block;
+    padding: 5px 17px;
+    width: 140px;
+  }
+  .sub-heading-option-div:hover{
+    color: dodgerblue;
+    cursor: pointer;
+  }
+  .options-holder{
+    position: relative;
+    top: -6px;
+    left: 10px;
+  }
+  tr.mat-row{
+    height:30px;
+  }
+  tr.mat-row:hover{
+    background-color: #e9f4ff;
+    cursor: pointer;
+  }
+  .heading-part{
+    padding: 4px 12px;
+    border-top: 3px solid #4698e6;
+  }
+  .enable-disable-span{
+    position: relative;
+    top: -3px;
+    left: 5px;
+  }
+  
+  
+  
+  .selected-row-background-color{
+    background-color: #e9f4ff;
+  }
+  
+  .sub-heading-part{
+    padding: 4px 12px;
+  }  

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Intel.PROSEt</id>
+    <version>1.0.0</version>
+    <title>Intel&#174; PROSet </title>
+    <authors>Intel Corporation</authors>
+    <owners>Intel Corporation</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.intel.com/content/www/us/en/support/articles/000059123/server-products.html</licenseUrl>
+    <iconUrl>https://www.intel.com/content/dam/logos/intel-footer-logo.svg</iconUrl>
+    <description>Intel&#174; Server Debug and Provisioning (SDP) Tool is a debug and provisioning tool for Intel&#174; Server Boards and systems through BMC Out-of-Band.
+
+This extension requires Intel&#174; SDP Tool to be installed on Gateway before usage.
+The tool provides capabilities to manage power, BIOS configuration, firmware etc.
+The tool allows the user to view system parameters like sensor and SEL (System Event Log).</description>
+    <copyright>&#169; 2021 Intel Corporation. All rights reserved. Intel Corporation, 2200 Mission College Blvd, Santa Clara CA 95052-8119, USA</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="bundle\**\*.*" target="ux" />
+  </files>
+</package>
